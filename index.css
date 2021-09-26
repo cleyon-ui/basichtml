@@ -8,7 +8,8 @@ body{
 .container{
 
   width: 700px;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 h1,
 h2,
@@ -83,8 +84,12 @@ footer p {
   width: 500px;
 }
 a:link{
+  margin: 20px;
     color: #1098ad;
     text-decoration: none;
+}
+a:link :last-child{
+  margin-right: 0;
 }
 a:visited{
     color: #1098ad;
@@ -109,4 +114,14 @@ a:active{
 
     .post-image{
       width: 100%;
+    }
+
+    .likebutton{
+      position: absolute;
+      cursor: pointer;
+      padding: 20px;
+
+      bottom:50px;
+      right:50px;
+     
     }
