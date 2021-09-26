@@ -1,0 +1,29 @@
+h1{
+    background-color: blanchedalmond;
+    text-align: center;
+}
+body{
+
+    border-width: 5 px;
+    border-style: solid;
+    border-color:black;
+    margin: 0;
+}
+.price{
+font-size: 20px;
+font-weight: bolder;
+}
+a{
+ color: black;
+}
+a:hover{
+    text-decoration: none;
+}
+.submitbutton{
+    background-color: black;
+    color: white;
+}
+.submitbutton:hover{
+    background-color: white;
+    color: black;
+}
