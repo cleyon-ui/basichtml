@@ -2,12 +2,17 @@ h1{
     background-color: blanchedalmond;
     text-align: center;
 }
-body{
+*{
 
+
+    margin: 0;
+}
+.container{
     border-width: 5 px;
     border-style: solid;
     border-color:black;
-    margin: 0;
+    width: 700px;
+    margin: 0 auto;
 }
 .price{
 font-size: 20px;
@@ -22,6 +27,7 @@ a:hover{
 .submitbutton{
     background-color: black;
     color: white;
+    width: 100%;
 }
 .submitbutton:hover{
     background-color: white;
