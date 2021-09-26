@@ -1,3 +1,15 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  border-top: 10px solid #1098ad;
+}
+.container{
+
+  width: 700px;
+  margin: auto;
+}
 h1,
 h2,
 h3,
@@ -10,6 +22,7 @@ h1,
 h2,
 h3 {
   color: #1098ad;
+  margin-bottom: 40px;
 }
 h1 {
   font-size: 26px;
@@ -32,6 +45,7 @@ p {
   font-size: 22px;
 
   line-height: 1.5;
+  margin-bottom: 20px;
 }
 li {
   font-size: 20px;
@@ -59,11 +73,14 @@ footer p {
 }
 .main-header {
   background-color: #f7f7f7;
+  margin-bottom: 60px;
 }
 .related-group {
   background-color: #f7f7f7;
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
+  padding: 50px 0;
+  width: 500px;
 }
 a:link{
     color: #1098ad;
@@ -80,4 +97,16 @@ font-weight: bold;
 a:active{
     color: black;
     font-style: italic;
+    }
+
+    .post-header{
+      margin-bottom: 45px;
+    }
+    ul,ol{
+      margin-left: 50px;
+      margin-bottom: 20px;
+    }
+
+    .post-image{
+      width: 100%;
     }
