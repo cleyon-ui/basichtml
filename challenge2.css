@@ -12,7 +12,19 @@ h1{
     border-style: solid;
     border-color:black;
     width: 700px;
-    margin: 0 auto;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:50px;
+    position: relative;
+}
+.sale{
+   display: inline-block;
+    position: absolute;
+    top:-10px;
+    left: -15px;
+    background-color: tomato;
+    padding: 7px 30px;
+
 }
 .price{
 font-size: 20px;
@@ -20,6 +32,7 @@ font-weight: bolder;
 }
 a{
  color: black;
+
 }
 a:hover{
     text-decoration: none;
@@ -32,4 +45,31 @@ a:hover{
 .submitbutton:hover{
     background-color: white;
     color: black;
+}
+.colors{
+    margin-top: 20px;
+}
+.color{
+display: inline-block;
+width: 15px;
+height: 15px;
+margin-right: 10px;
+}
+.colour1{
+    background-color: tomato;
+}
+.colour2{
+    background-color:turquoise;
+}
+.colour3{
+    background-color:blueviolet;
+}
+.colour4{
+    background-color:orange;
+}
+.colour5{
+    background-color:hotpink;
+}
+.colour6{
+    background-color:greenyellow;
 }
