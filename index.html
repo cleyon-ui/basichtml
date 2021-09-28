@@ -19,9 +19,11 @@
           <a href="#">CSS Grid</a>
         </nav>
       </header>
+      <div class="row">
       <article>
         <header class="post-header">
           <h2 class="heading">The Basic Language of the Web: HTML</h2>
+          <div class="author-box">
           <img
             src="img/laura-jones.jpg"
             alt="profileImage"
@@ -31,6 +33,7 @@
           <p id="author">
             Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027
           </p>
+        </div>
 
           <img class="post-image" src="img/post-img.jpg" alt="profileImage" />
         </header>
@@ -91,25 +94,32 @@
         </p>
       </article>
       <aside class="related-group">
-        <h4>Related Posts</h4>
+        <h1>Related Posts</h1>
         <ul class="related">
-          <li>
+          <li class="related-post">
             <img src="img/related-1.jpg" height="75px" width="75px" />
-            <a href="#">How to Learn Web Development</a>
+            <div>
+            <a href="#" class="related-link">How to Learn Web Development</a>
             <p class="related-authors">by Cleyon Kurian</p>
+          </div>
           </li>
-          <li>
+          <li class="related-post">
             <img src="img/related-2.jpg" height="75px" width="75px" />
-            <a href="#">The Unknow powers of CSS</a>
+            <div>
+            <a href="#" class="related-link">The Unknow powers of CSS</a>
             <p class="related-authors">by Aparna Sabu</p>
+          </div>
           </li>
-          <li>
+          <li class="related-post">
             <img src="img/related-3.jpg" height="75px" width="75px" />
-            <a href="#">Why Javascript is Awesome</a>
+            <div>
+            <a href="#" class="related-link">Why Javascript is Awesome</a>
             <p class="related-authors">by Betson William</p>
+          </div>
           </li>
         </ul>
       </aside>
+    </div>
       <footer>
         <p id="copyright">copyright &copy; 2021 by The Code Magazine.</p>
       </footer>
